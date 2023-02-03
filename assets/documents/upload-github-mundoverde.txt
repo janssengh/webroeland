@@ -1,0 +1,1 @@
+git init && git add . && git config --global user.name "Roeland" && git config --global user.email "roeland.e.janssen@gmail.com" && git commit -m "first commit" && git branch -M web_crud_mundoverde_novo && git remote add origin https://github.com/janssengh/web-roeland && git push origin web_crud_mundoverde_novo
