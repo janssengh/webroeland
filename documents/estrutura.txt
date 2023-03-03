@@ -1,0 +1,130 @@
+HEAD
+    links das bibliotecas
+
+BODY
+    header
+		div.container id='nav-container'
+			<!-- add essa class -->
+			nav.navbar navbar-expand-lg fixed-top navbar-dark
+				a.navbar-brand" href="index.html
+					<img id="logo" src="img/Logo-header-white-1.png" alt="hDC Agency"> JMD - JANSSEN MARKETING DIGITAL
+				button.navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" 
+					aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation"
+			          	span.navbar-toggler-icon
+				div.collapse navbar-collapse justify-content-end" id="navbar-links
+				div.navbar-nav
+					a.nav-item nav-link" id="home-menu" href="#">Home</span
+					a.nav-item nav-link" id="about-menu" href="#">Sobre mim
+	main
+		div.container-fluid
+			<!-- slider -->
+			div.mainSlider class="carousel slide" data-ride="carousel"
+				ol.carousel-indicators
+					<li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+          				<li data-target="#mainSlider" data-slide-to="1"></li>
+          				<li data-target="#mainSlider" data-slide-to="2"></li>
+			div.carousel-inner
+				div.carousel-item active
+					            <img src="img/banner1.png" class="d-block w-100" alt="Projetos de e-commerce">
+							div.carousel-caption d-md-block
+								<h2>Quer criar um e-commerce?</h2>
+              						<p>Conte comigo para montar um projeto para alavancar as suas vendas.</p>										
+              						<a href="#" class="main-btn">Entre em contato</a>
+							div.carousel-item
+								<img src="img/banner2.png" class="d-block w-100" alt="Engenharia de software">
+            						div.carousel-caption d-md-block
+              							<h2>Está querendo tirar o projeto do papel?</h2>
+             							<p>Me chame pelo whatsapp, telefone ou e-mail, para agendarmos uma visita a sua empresa.</p>
+             							<a href="#" class="main-btn">Entre em contato</a>
+							div.carousel-item
+								<img src="img/banner3.png" class="d-block w-100" alt="Manutenção em software">
+            						div.carousel-caption d-md-block
+              							<h2>Está buscando manutenção no seu software?</h2>
+              							<p>Esperiência, conhecimento e qualificação para resolver seu problema.</p>
+              							<a href="#" class="main-btn">Entre em contato</a>
+			<a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
+          			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          			<span class="sr-only">Previous</span>
+        		</a>
+       	 	<a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
+          			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+          			<span class="sr-only">Next</span>
+        		</a>
+			<!-- Sobre mim -->	
+			div.id="about-area"
+				div.container
+					div.row
+						div.col-12
+							<h3 class="main-title">Sobre mim</h3>
+						div.col-md-6
+							<img class="img-fluid" src="img/Sobre mim.png" alt="Sobre mim">
+						div.col-md-6
+							<h3 class="about-title">Meu foco é pensar no futuro da sua empresa</h3>
+               					<p>Os projetos serão adaptados a você cliente e o seu propósito.</p>
+                					<p>Após a especificação dos projetos, serão definidos as melhores tecnologias para seu projeto.</p>
+                					<p>Estarei trabalhando na sua interface/layout para impulsionar o negócio.</p>
+               					<p>Veja outros diferenciais:</p>
+               					<ul id="about-list">
+                					   <li><i class="fas fa-check"></i> Utilização de Machine Learning / AI</li>
+                 					   <li><i class="fas fa-check"></i> Layout responsivo para todos os dispositivos</li>
+              					   <li><i class="fas fa-check"></i> Integração com diversos sistemas do mercado</li>
+               					   <li><i class="fas fa-check"></i> Sistema de pagamento próprio</li>
+                 					   <li><i class="fas fa-check"></i> Desenvolvimento com metodologia ágil</li>
+               					</ul>
+			<!-- Serviços da empresa -->
+			div.id="services-area"
+				div.container
+					div.row
+						div.col-12
+							<h3 class="main-title">Minhas especialidades</h3>
+						div.col-md-4 service-box
+							<i class="fas fa-mobile-alt"></i>
+              					<h4>Aplicativos Nativos</h4>
+             					<p>Utilizamos o real poder dos dispositivos móveis construindo aplicativos nativos.</p>
+						div.col-md-4 service-box
+							<i class="fas fa-shopping-cart"></i>
+              					<h4>E-commerces</h4>
+             					<p>Temos uma plataforma própria de e-commerce que se adapta a qualquer regra de negócio (B2C e B2B).</p>						
+						div.col-md-4 service-box
+							<i class="fas fa-paint-brush"></i>
+              					<h4>Design Criativo</h4>
+             					<p>Nossos designers são especializados em UI/UX e também possuem vasta experiência no mercado de software.</p>
+						div.col-md-4 service-box
+							<i class="fab fa-google"></i>
+             					<h4>Experts em SEO</h4>
+            					<p>Com nosso serviço de marketing seu site será melhor posicionado no Google e venderá mais.</p>
+						div.col-md-4 service-box
+							<i class="fas fa-hands-helping"></i>
+             					<h4>Suporte</h4>
+             					<p>Você terá disponível suporte, em diferentes plataformas. (telefone, whatsapp, email)</p>
+						div.col-md-4 service-box
+							<i class="fas fa-server"></i>
+             					<h4>Experiência em servidores</h4>
+            					<p>Garantimos uptime e também rápido tempo de resposta do seu site para o seu cliente.</p>
+			<!-- Portfólio -->
+			div.id="portfolio-area"
+				div.container
+					div.row
+						div.col-12
+							<h3 class="main-title">Conheça nossos projetos</h3>
+						div.col-md-12" id="filter-btn-box"
+							<button class="main-btn filter-btn active" id="all-btn">Todos</button>
+              					<button class="main-btn filter-btn" id="dev-btn">Desenvolvimento</button>
+              					<button class="main-btn filter-btn" id="dsg-btn">Design</button>
+             					<button class="main-btn filter-btn" id="seo-btn">SEO</button>
+						div.col-md-4 project-box dev
+							<img src="img/proj1.jpg" class="img-fluid" alt="Projeto 1">
+						div.col-md-4 project-box dsg
+							<img src="img/proj2.jpg" class="img-fluid" alt="Projeto 2">
+						div.col-md-4 project-box seo
+							<img src="img/proj3.jpg" class="img-fluid" alt="Projeto 3">
+						div.col-md-4 project-box dev
+							<img src="img/proj4.jpg" class="img-fluid" alt="Projeto 4">
+
+
+						
+									
+
+					
+		
+		
